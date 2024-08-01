@@ -43,7 +43,7 @@ export default function Footer() {
                       <ul class="btn-list btn-list-inline gy-0">
                         <li>
                           <a
-                            href="#"
+                            href="/register"
                             class="btn btn-lg btn-primary rounded-pill"
                           >
                             <span>Start writing for free</span>

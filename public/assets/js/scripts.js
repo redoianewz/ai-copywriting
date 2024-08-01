@@ -269,16 +269,30 @@ const swiperCarousel = function (selector) {
   }
 };
 
-  
-  DropdownHeader(".nk-menu-dropdown");
+
+const priceToggle = function (selector) {
+  let elm = document.querySelectorAll(selector);
+  if (elm) {
+    elm.forEach((item) => {
+      item.addEventListener("click", function () {        
+        let parent = item.closest(`.${item.dataset.parent}`);
+        let target = document.querySelectorAll(`.${item.dataset.target}`);
+        console.log(target);
+        parent.classList.contains("pricing-yearly")
+          ? parent.classList.remove("pricing-yearly")
+          : parent.classList.add("pricing-yearly");
+        target.forEach((item) => {
+          item.classList.contains("show-yearly")
+            ? item.classList.remove("show-yearly")
+            : item.classList.add("show-yearly");
+        });
+      });
+    });
+  }
+};
+
+
+  DropdownHeader(".has-dropdown");
   Navbar.init();
   swiperCarousel(".swiper-carousel");
-  CurrentLink(
-    ".nk-menu",
-    ".nk-menu > .nk-menu-item > a",
-    "nk-menu-item",
-    "nk-menu-sub",
-    "nk-menu",
-    ["active"],
-    true
-  );
+priceToggle(".pricing-toggle");
