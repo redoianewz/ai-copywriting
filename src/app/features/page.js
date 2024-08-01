@@ -10,7 +10,7 @@
            <div className="nk-mask bg-gradient-a"></div>
            <div className="nk-shape bg-shape-blur-m mt-8 start-50 top-0 translate-middle-x"></div>
            <div className="nk-mask bg-pattern-dot bg-blend-around mt-n5 mb-10p mh-50vh"></div>
-           
+
            <div class="container">
              <div class="section-head">
                <div class="row justify-content-center text-center">
@@ -289,43 +289,324 @@
              </div>
            </div>
          </section>
-         <section class="section section-bottom-0">
+         <section class="section section-lg section-bottom-0">
            <div class="container">
-             <div class="section-wrap bg-primary bg-opacity-10 rounded-4">
-               <div class="section-content bg-pattern-dot-sm p-4 p-sm-6">
-                 <div class="row justify-content-center text-center">
-                   <div class="col-xl-8 col-xxl-9">
-                     <div class="block-text">
-                       <h6 class="overline-title text-primary">
-                         Boost your writing productivity
-                       </h6>
-                       <h2 class="title">End writer’s block today</h2>
-                       <p class="lead mt-3">
-                         It’s like having access to a team of copywriting
-                         experts writing powerful copy for you in 1-click.
+             <div class="section-head">
+               <div class="row justify-content-center text-center">
+                 <div class="col-lg-10 col-xl-9 col-xxl-8">
+                   <h2 class="title h1">
+                     How will CopyGen unlock your creative potential?
+                   </h2>
+                   <p class="lead">
+                     Copygen.ai allows you to create multiple pieces of content
+                     quickly and efficiently, increasing your productivity and
+                     freeing up time to focus on other important tasks.
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="section-content">
+               <div class="row gy-gs gx-xxl-9">
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-note-add"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">
+                         Write copy &amp; content that converts
+                       </h4>
+                       <p>
+                         You can generate high-quality content in seconds,
+                         saving you valuable time that you can spend on other
+                         important tasks.
                        </p>
-                       <ul class="btn-list btn-list-inline">
-                         <li>
-                           <a href="#" class="btn btn-lg btn-primary">
-                             <span>Start writing for free</span>
-                             <em class="icon ni ni-arrow-long-right"></em>
-                           </a>
-                         </li>
-                       </ul>
-                       <ul class="list list-row gy-0 gx-3">
-                         <li>
-                           <em class="icon ni ni-check-circle-fill text-success"></em>
-                           <span>No credit card required</span>
-                         </li>
-                         <li>
-                           <em class="icon ni ni-check-circle-fill text-success"></em>
-                           <span>Cancel anytime</span>
-                         </li>
-                         <li>
-                           <em class="icon ni ni-check-circle-fill text-success"></em>
-                           <span>10+ tools to expolore</span>
-                         </li>
-                       </ul>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-bulb"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">Brainstorm new ideas.</h4>
+                       <p>
+                         An interview-style show featuring industry leaders,
+                         experts, and influencers, covering topics ranging from
+                         tech, politics, art, and more.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-activity-round"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">10X your content output</h4>
+                       <p>
+                         Use templates to streamline your content creation
+                         process. This can include templates for blog posts,
+                         social media posts, videos, and more.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-text-a"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">Write better, everywhere.</h4>
+                       <p>
+                         Reading widely can help improve your writing skills by
+                         exposing you to different writing styles, grammar
+                         structures, and vocabulary.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-text2"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">Create content in 26 languages</h4>
+                       <p>
+                         Copygen can read and write content in 25 languages
+                         including English, Spanish, Japanese, and Portuguese.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-puzzle"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">Build an AI-Powered business.</h4>
+                       <p>
+                         Building an AI-powered business is an ongoing process,
+                         and requires ongoing investment in data, technology,
+                         and expertise.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-presentation"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">Collaborate with your team</h4>
+                       <p>
+                         Clear communication is key to successful collaboration.
+                         Be sure to express your ideas clearly and listen
+                         actively to others.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-md-6">
+                   <div class="feature feature-inline">
+                     <div class="feature-media">
+                       <div class="text-gradient-primary fs-2 d-inline-flex">
+                         <em class="icon ni ni-happy"></em>
+                       </div>
+                     </div>
+                     <div class="feature-text">
+                       <h4 class="title">Have fun! CopyGen is a joy.</h4>
+                       <p>
+                         AI is an exciting, new technology that can unlock your
+                         imagination to create some amazing things.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </section>
+         <section class="section section-lg section-bottom-0 has-shape mb-6">
+           <div class="nk-shape bg-shape-border-f ms-40p mt-8 start-50 translate-middle-x"></div>
+           <div class="container">
+             <div class="section-head">
+               <div class="row justify-content-center text-center">
+                 <div class="col-lg-10 col-xl-9 col-xxl-8">
+                   <h2 class="title h1">See what AI writers have to say</h2>
+                   <p class="lead px-xxl-10">
+                     This is a straightforward and commonly used header that
+                     lets customers know they are looking at different pricing
+                     options.
+                   </p>
+                 </div>
+               </div>
+             </div>
+             <div class="section-content">
+               <div class="row g-gs" data-masonry='{"percentPosition": true }'>
+                 <div class="col-xl-4 col-md-6">
+                   <div class="card border-0 shadow-none rounded-4 bg-gradient-a">
+                     <div class="card-body">
+                       <div class="d-flex pb-5">
+                         <div class="media media-lg media-middle media-lg rounded-pill">
+                           <img src="/images/avatar/author/sm-e.jpg" alt="" />
+                         </div>
+                         <div class="media-info ms-3">
+                           <h5 class="mb-1">Ozioma Egwuonwu</h5>
+                           <div class="sub-text">CEO at Hire &amp; Retain</div>
+                         </div>
+                       </div>
+                       <h4 class="title mb-3">Great app - Easy to use</h4>
+                       <p>
+                         Great value and so easy to use and saves me so much
+                         time! I was shocked by how much time and brain energy
+                         it saved me. Simple &amp; easy...gotta love that. ✌️
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-xl-4 col-md-6">
+                   <div class="card border-0 shadow-none rounded-4 bg-gradient-a">
+                     <div class="card-body">
+                       <div class="d-flex pb-5">
+                         <div class="media media-lg media-middle media-lg rounded-pill">
+                           <img src="/images/avatar/author/sm-m.jpg" alt="" />
+                         </div>
+                         <div class="media-info ms-3">
+                           <h5 class="mb-1">Frances Burns</h5>
+                           <div class="sub-text">CEO at Hire &amp; Retain</div>
+                         </div>
+                       </div>
+                       <h4 class="title mb-3">
+                         Like the name the Software also very SIMPLE to use
+                       </h4>
+                       <p>
+                         I was impressed I have to say, from the time it took me
+                         to come up with this stuff, your system improved my
+                         productivity. I think you have a creative tool,
+                         properly postured, it can generate alot of positive
+                         impact.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-xl-4 col-md-6">
+                   <div class="card border-0 shadow-none rounded-4 bg-gradient-a">
+                     <div class="card-body">
+                       <div class="d-flex pb-5">
+                         <div class="media media-lg media-middle media-lg rounded-pill">
+                           <img src="/images/avatar/author/sm-b.jpg" alt="" />
+                         </div>
+                         <div class="media-info ms-3">
+                           <h5 class="mb-1">Ben Tortora</h5>
+                           <div class="sub-text">CEO at Hire &amp; Retain</div>
+                         </div>
+                       </div>
+                       <h4 class="title mb-3">
+                         Just wanna shout out the whole team for this amazing
+                         tool
+                       </h4>
+                       <p>
+                         I love it! The simplicity of writing and designing in
+                         one app 🎉 Makes social media marketing a breeze ❤️
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-xl-4 col-md-6">
+                   <div class="card border-0 shadow-none rounded-4 bg-gradient-a">
+                     <div class="card-body">
+                       <div class="d-flex pb-5">
+                         <div class="media media-lg media-middle media-lg rounded-pill">
+                           <img src="/images/avatar/author/sm-n.jpg" alt="" />
+                         </div>
+                         <div class="media-info ms-3">
+                           <h5 class="mb-1">Derek Gehl</h5>
+                           <div class="sub-text">CEO at Hire &amp; Retain</div>
+                         </div>
+                       </div>
+                       <h4 class="title mb-3">
+                         Time Saving and Better Than PLR Content
+                       </h4>
+                       <p>
+                         CpoyGen is a fantastic tool for writing product
+                         descriptions and getting started on blog posts. No
+                         longer do I have to stare at a blank screen trying to
+                         figure out how to flesh out a topic beyond 50 words.
+                         For me, CopyGen replaces buying PLR content that I
+                         would similarly edit and personalize. This saves me
+                         time because I can actually tailor to my keyword and
+                         niche needs.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-xl-4 col-md-6">
+                   <div class="card border-0 shadow-none rounded-4 bg-gradient-a">
+                     <div class="card-body">
+                       <div class="d-flex pb-5">
+                         <div class="media media-lg media-middle media-lg rounded-pill">
+                           <img src="/images/avatar/author/sm-p.jpg" alt="" />
+                         </div>
+                         <div class="media-info ms-3">
+                           <h5 class="mb-1">Martin Schoel</h5>
+                           <div class="sub-text">CEO at Hire &amp; Retain</div>
+                         </div>
+                       </div>
+                       <h4 class="title mb-3">
+                         They&lsquo &lsquove hit a home run with this AI tool
+                       </h4>
+                       <p>
+                         I was literally speechless from the originality of the
+                         content that my very first CopyGen test was able to
+                         produce from only a small sample of my original
+                         content. I was anticipating useless gibberish, but was
+                         instead genuinely dumbfounded. I stared at it in
+                         amazement for a solid 3 minutes while the idea machine
+                         in my head spun wildly, and I contemplated
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-xl-4 col-md-6">
+                   <div class="card border-0 shadow-none rounded-4 bg-gradient-a">
+                     <div class="card-body">
+                       <div class="d-flex pb-5">
+                         <div class="media media-lg media-middle media-lg rounded-pill">
+                           <img src="/images/avatar/author/sm-o.jpg" alt="" />
+                         </div>
+                         <div class="media-info ms-3">
+                           <h5 class="mb-1">Merri Evans</h5>
+                           <div class="sub-text">CEO at Hire &amp; Retain</div>
+                         </div>
+                       </div>
+                       <h4 class="title mb-3">
+                         A year of organic marketing in about 30 minutes
+                       </h4>
+                       <p>
+                         Writing articles has never been easier for me. Since I
+                         started using CopyGen, I only need a few minutes 🎉
+                       </p>
                      </div>
                    </div>
                  </div>

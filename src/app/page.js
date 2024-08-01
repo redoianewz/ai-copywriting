@@ -5,10 +5,10 @@ import HomeComponent from "@/components/HomeComponent";
 export default function Home() {
 
   return (
-    <div className="nk-app-root">
+    <div className="nk-app-root ">
       <Header page={HomeComponent} path="/" />
       <main className="nk-pages">
-        <section className="section section-bottom-0 has-shape">
+        <section className="section section-bottom-0 has-shape ">
           <div className="nk-shape bg-shape-blur-a mt-8 start-50 top-0 translate-middle-x"></div>
           <div className="container">
             <div className="section-head">
